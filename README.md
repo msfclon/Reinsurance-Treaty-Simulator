@@ -59,23 +59,16 @@ donde $N \sim \text{Poisson}(\lambda = 50)$ y $Y_j$ sigue una distribución de c
 
 ---
 
-## Estructura del proyecto   
-reinsurance-treaty-simulator/
-├── notebooks/
-│   ├── 01_loss_simulation.ipynb
-│   ├── 02_quota_share.ipynb
-│   ├── 03_excess_of_loss.ipynb
-│   ├── 04_stop_loss.ipynb
-│   ├── 05_metrics.ipynb
-│   └── 06_main_report.ipynb
-├── src/
-│   ├── simulation.py
-│   └── treaties.py
-├── data/
-├── figures/
-└── requirements.txt
+## Estructura del proyecto
 
----
+| Carpeta | Contenido |
+|---------|-----------|
+| `notebooks/` | 6 notebooks: simulación, 3 tratados, métricas y reporte final |
+| `src/` | `simulation.py` y `treaties.py` |
+| `data/` | Siniestros simulados en CSV |
+| `figures/` | 11 visualizaciones exportadas |
+| `requirements.txt` | Dependencias del proyecto |
+
 
 ## Instalación y uso
 
