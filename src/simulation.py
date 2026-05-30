@@ -21,7 +21,7 @@ def simulate_aggregate_losses(
     Simula n_simulations realizaciones de la pérdida agregada S.
 
     Parámetros
-    ----------
+    
     n_simulations : número de escenarios simulados
     lam           : media de la Poisson (frecuencia esperada de siniestros)
     severity      : 'pareto' o 'lognormal'

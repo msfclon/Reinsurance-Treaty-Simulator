@@ -89,13 +89,13 @@ def apply_stop_loss(
     Aplica un tratado de Stop-Loss Agregado sobre la pérdida agregada.
 
     Parámetros
-    ----------
+    
     S : pérdidas agregadas brutas (una por escenario)
     D : deducible agregado (lo que siempre absorbe la aseguradora)
     C : límite de cobertura del reasegurador
 
     Retorna
-    -------
+    
     dict con:
         - retained : pérdida retenida por la aseguradora
         - ceded    : pérdida cedida al reasegurador
