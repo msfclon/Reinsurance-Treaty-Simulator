@@ -60,3 +60,39 @@ donde $N \sim \text{Poisson}(\lambda = 50)$ y $Y_j$ sigue una distribución de c
 ---
 
 ## Estructura del proyecto   
+reinsurance-treaty-simulator/
+├── notebooks/
+│   ├── 01_loss_simulation.ipynb
+│   ├── 02_quota_share.ipynb
+│   ├── 03_excess_of_loss.ipynb
+│   ├── 04_stop_loss.ipynb
+│   ├── 05_metrics.ipynb
+│   └── 06_main_report.ipynb
+├── src/
+│   ├── simulation.py
+│   └── treaties.py
+├── data/
+├── figures/
+└── requirements.txt
+
+---
+
+## Instalación y uso
+
+git clone https://github.com/msfclon/Reinsurance-Treaty-Simulator.git
+cd Reinsurance-Treaty-Simulator
+pip install -r requirements.txt
+jupyter notebook notebooks/06_main_report.ipynb
+
+---
+
+## Visualizaciones
+
+### Loss Layer Diagram
+![Loss Layer Diagram](figures/09_loss_layer_diagram.png)
+
+### Comparación de métricas
+![Métricas comparativas](figures/08_metricas_comparativas.png)
+
+### ECDF comparativa
+![ECDF](figures/07_ecdf_comparativa.png)
