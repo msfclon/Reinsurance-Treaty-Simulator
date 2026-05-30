@@ -89,3 +89,10 @@ jupyter notebook notebooks/06_main_report.ipynb
 
 ### ECDF comparativa
 ![ECDF](figures/07_ecdf_comparativa.png)
+## Limitaciones y trabajo futuro
+
+- Se modela una sola capa XL; en la práctica se usan múltiples capas consecutivas
+- Los parámetros de los tratados ($M$, $D$, $C$) no fueron optimizados; una extensión natural es encontrar el $M$ óptimo para cada distribución minimizando la prima técnica
+- No se modeló el costo explícito del reaseguro (prima cedida al reasegurador)
+- Los siniestros individuales no se guardan en disco; el módulo XL requiere resimulación en cada ejecución
+- Extensión futura: incorporar múltiples líneas de negocio y correlación entre portafolios
